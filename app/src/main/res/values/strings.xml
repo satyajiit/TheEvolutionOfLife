@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">EVOLUTION</string>
+
+
+    <!--FOR INTRO PAGE-->
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Hello There!</string>
+    <string name="slide_1_desc">The app is targeted for Educational Purposes!</string>
+
+    <string name="slide_2_title">The Evolution</string>
+    <string name="slide_2_desc">Learn about the evolution of Life on the Go!</string>
+
+    <string name="slide_3_title">Interactive UI</string>
+    <string name="slide_3_desc">I tried the best to implement best UI designs!</string>
+
+    <string name="slide_4_title">Graph View</string>
+    <string name="slide_4_desc">Supports a Tree View for the Evolution!</string>
+
+
+</resources>

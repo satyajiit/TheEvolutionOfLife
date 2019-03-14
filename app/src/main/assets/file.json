@@ -1,0 +1,1292 @@
+{
+  "1": {
+
+
+    "name" : "LIFE",
+    "d" : "Life",
+    "time" : "0"
+  },
+
+  "2":{
+
+    "name" : "Bacteria Domain"
+
+  },
+
+  "3":{
+
+    "parent": "1",
+    "name" : "Eukaryote Domain",
+    "time" : 2000
+  },
+
+  "4":{
+
+    "name" : "Archaea Domain"
+
+  },
+
+  "5":{
+
+    "name" : "Crenarchaeota Phylum"
+
+  },
+
+  "6":{
+
+    "name" : "Korarchaeota Phylum"
+
+  },
+
+  "7":{
+
+    "name" : "Euryarchaeota Phylum"
+
+  },
+
+  "8":{
+
+    "name" : "Mathogens",
+    "d" : "Produces Methane"
+  },
+
+  "9":{
+
+
+    "name" : "Halophiles"
+
+  },
+
+
+  "10": {
+    "name": "Thermophiles",
+    "d": "Lives in Hot Condition"
+  },
+
+  "11": {
+    "name": "Amoebas"
+  },
+  "12": {
+
+    "parent" : "3",
+    "name": "Animal Kingdom",
+    "time" : 1000
+  },
+  "13": {
+    "name": "Choano-flagellates"
+
+  },
+  "14": {
+    "name": "Oomycete",
+    "d": "Water mould"
+  },
+  "15": {
+    "name": "Fungus Kingdom",
+    "d2": "Fungus"
+  },
+  "16": {
+    "name": "Mycetozoa",
+    "d": "Slime Mould"
+  },
+  "17": {
+    "name": "Phaeophyceaea",
+    "d": "Brown algae"
+  },
+  "18": {
+    "name": "Plant Kingdom"
+  },
+  "19": {
+    "name": "Rhodophyta",
+    "d": "Red Algae"
+  },
+  "20": {
+    "name": "Phylum Zygomycota",
+    "d": "Bread Mold"
+  },
+  "21": {
+    "name": "Phylum Basidiomycota",
+    "d": "Mushroom"
+  },
+
+  "22": {
+    "name": "Phylum asomycota",
+    "d": "Lives in Hot Condition"
+  },
+
+  "23": {
+    "name": "Chlorphyta",
+    "d": "Green Algae"
+  },
+
+  "24": {
+    "name": "Land Plants"
+  },
+  "25": {
+    "name": "Bryophyta",
+    "d": "Moss"
+  },
+  "26": {
+    "name": "Vascular Plants"
+  },
+  "27": {
+    "name": "Seed Plants"
+  },
+  "28": {
+    "name": "Conifer",
+    "d": "Trees with Cones"
+  },
+  "29": {
+    "name": "Order Pinales"
+  },
+  "30": {
+
+    "name": "Family Pinaceae"
+
+  },
+  "31": {
+
+    "name": "Cupressaceae Family",
+    "d": "Cypress Tress"
+
+  },"32": {
+  "name": "Genus abies",
+  "d": "Fir Tress"
+},
+  "33": {
+  "name": "Genus Pinus",
+  "d": "Pine Trees"
+},
+
+  "34": {
+    "name": "Angio Sperm",
+    "d": "Flowering Plants"
+  }
+,
+  "35": {
+    "name": "Monocots"
+  },
+  "36": {
+    "name": "Order liliales"
+  },
+  "37": {
+    "name": "Order asparagales"
+  },
+  "38": {
+  "name": "Poaceae"
+},
+  "39": {
+    "name": "Order Poales"
+  },
+  "40": {
+    "name": "Dicots"
+  },
+  "41": {
+    "name": "Magnoliids"
+  }
+,
+  "42": {
+    "name": "Eudicots"
+  },
+  "43": {
+    "name": "Rosids"
+  },
+  "44": {
+    "name": "Order Caryo Phyllales"
+  },
+  "45": {
+    "name": "Asterids"
+  }
+,
+  "46": {
+    "parent" : "12",
+    "name": "Bilateria",
+    "time" : 550
+  },
+  "47": {
+    "parent" : "46",
+    "name": "Protostomes"
+  },
+  "48": {
+    "parent" : "46",
+    "name": "Deuterostomes",
+    "time": "540"
+  },
+  "49": {
+    "parent" : "48",
+    "name": "Phylum echindermata",
+    "d": "Starfish"
+  },
+  "50": {
+    "parent" : "48",
+    "name": "Phylum Chordata",
+    "d2": "Chordate",
+    "time": 535
+  },
+  "51": {
+    "parent" : "47",
+    "name": "Phylum annelida",
+    "d": "Earthworms"
+  },
+  "52": {
+    "parent" : "47",
+    "name": "Phylum nemotoda",
+    "d": "Roundworms"
+  },
+  "53": {
+    "parent" : "47",
+    "name": "Phylum anthoropoda",
+    "time" : 500
+  },
+  "54": {
+    "parent" : "47",
+    "name": "Phylum Mollusca"
+  },
+
+  "55": {
+    "parent" : "54",
+    "name": "Order Octopoda",
+    "d": "Octopus",
+    "time" : 323
+  },
+
+  "56": {
+    "parent" : "54",
+    "name": "Order teuthida",
+    "d": "Squid"
+  },
+  "57": {
+    "parent" : "53",
+    "name": "Insect Class",
+    "d2": "Insect",
+    "time" : 400
+  },
+  "58": {
+    "parent" : "57",
+    "name": "Order Diptera",
+    "d" : "Flies"
+  },
+  "59": {
+    "parent" : "57",
+    "name": "Order Orthopetra",
+    "d" : "Grasshoppers"
+  },
+  "60": {
+    "parent" : "57",
+    "name": "Order Lepidopetra",
+    "d" : "Butterflies"
+  },
+  "61": {
+    "parent" : "57",
+    "name": "Order Hymen optera"
+  },
+  "62": {
+    "parent" : "61",
+    "name": "Family Fomicidae",
+    "d" : "Ants"
+  },
+
+  "63": {
+    "parent" : "50",
+    "name": "Pikaia"
+  }
+  ,
+  "64": {
+    "parent" : "50",
+    "name": "Vertebrates",
+    "time" : 500
+  },
+  "65": {
+    "parent" : "64",
+    "name": "SuperClass agnatha",
+    "d" : "Jawless Fish",
+    "d2": "Agnatha"
+  },
+  "66": {
+    "parent" : "64",
+    "name": "Jawed Fish",
+    "d2": "Gnathostomata",
+    "time" : 450
+  },
+  "67": {
+    "parent" : "66",
+    "name": "Class Chondrichthyes",
+    "d": "Sharks"
+  },
+
+  "68": {
+    "parent" : "66",
+    "name": "Bony Fish",
+    "time": "420",
+    "d2": "Osteichthyes"
+  },
+  "69": {
+    "parent" : "68",
+    "name": "Actinopterygii",
+    "time" : 400
+  },
+  "70": {
+    "parent" : "68",
+    "name": "Sarcopterygii",
+    "time": 423
+  },
+  "71": {
+    "parent" : "69",
+    "name": "Order Siluriformes",
+    "d": "Catfish"
+  },
+  "72": {
+    "parent" : "69",
+    "name": "Order Cypriniformes",
+    "d": "Goldfish"
+  },
+  "73": {
+    "parent" : "69",
+    "name": "Order Syngnathiformes",
+    "d": "Sea Horses"
+  },
+  "74": {
+    "parent" : "70",
+    "name": "Tetrapods",
+    "time" : 384
+  },
+  "75": {
+    "parent" : "70",
+    "name": "Tiktaalik",
+    "d": "Tiktaalik"
+  },
+  "76": {
+    "parent" : "74",
+    "name": "Amphibian Class",
+    "d2": "Amphibian",
+    "time" : 350
+  },
+  "77": {
+    "parent" : "76",
+    "name": "Order Anura",
+    "d": "Frogs"
+  },
+  "78": {
+    "parent" : "76",
+    "name": "Order Caudata",
+    "d": "Salamanders"
+  },
+  "79": {
+    "parent" : "74",
+    "name": "Amniote",
+    "time" : 350
+  },
+  "80": {
+    "parent" : "79",
+    "name": "Synapsid",
+    "time" : 300
+  },
+  "81": {
+    "parent" : "79",
+    "name": "Sauropsida",
+    "time" : 312
+  },
+  "82": {
+    "parent" : "80",
+    "name": "Pelycosaur",
+    "d": "Pelycosaur"
+  },
+  "83": {
+    "parent" : "80",
+    "name": "Therapsid",
+    "time" : 275
+  },
+  "84": {
+    "parent" : "83",
+    "name": "Cynodonts",
+    "d": "Cynodont",
+    "time" : 260
+  },
+  "85": {
+    "parent" : "81",
+    "name": "Reptile Class",
+    "time" : 250
+  },
+  "86": {
+    "parent" : "85",
+    "name": "Plesiosaurus",
+    "d": "Plesiosaurus"
+  },
+  "87": {
+    "parent" : "85",
+    "name": "Squamata",
+    "time" : 199
+  },
+  "88": {
+    "parent" : "85",
+    "name": "Order Pterosaur",
+    "d": "Order Pterosaur"
+  },
+  "89": {
+    "parent" : "85",
+    "name": "Order Crocodilia",
+    "d": "Crocodiles"
+  },
+  "90": {
+    "parent" : "85",
+    "name": "Dinosaurs",
+    "time" : 233
+  },
+  "91": {
+    "parent" : "85",
+    "name": "Order Testudines",
+    "d": "Turtles"
+  },
+  "92": {
+    "parent" : "87",
+    "name": "Family Gekkonidae",
+    "d": "Geckos"
+  },
+  "93": {
+    "parent" : "87",
+    "name": "Family Chamaeleonidae",
+    "d": "Chameleons"
+  },
+  "94": {
+    "parent" : "87",
+    "name": "Suborder Serpentes",
+    "d": "Snakes"
+  },
+  "95": {
+    "parent" : "90",
+    "name": "Saurischia",
+    "time" : 233
+  },
+  "96": {
+    "parent" : "90",
+    "name": "Ornithischia",
+    "time" : 245
+  },
+  "97": {
+    "parent" : "95",
+    "name": "Sauropoda",
+    "time" : 242
+  },
+  "98": {
+    "parent" : "97",
+    "name": "Family Brachiosauridae",
+    "d" : "Brachiosaurus"
+  },
+  "99": {
+    "parent" : "97",
+    "name": "Family Diplodocidae",
+    "d" : "Apatasaurus"
+  },
+  "100": {
+    "parent" : "95",
+    "name": "Theropoda",
+    "time" : 231
+  },
+  "101": {
+    "parent" : "100",
+    "name": "Avian Class BIRDS",
+    "d2": "Bird",
+    "time" : 150
+  },
+  "102": {
+    "parent" : "100",
+    "name": "Family Dromaeosauridae",
+    "d": "Raptors"
+  },
+  "103": {
+    "parent" : "100",
+    "name": "Family Tyrannosauridae",
+    "d": "Tyrannosaurus"
+  },
+  "104": {
+    "parent" : "96",
+    "name": "Family Ceratopsidae",
+    "d": "Triceratops"
+  },
+  "105": {
+    "parent" : "96",
+    "name": "Family Stegosauridae",
+    "d": "Stegosaurus"
+  },
+  "106": {
+    "parent" : "101",
+    "name": "Order Aseriformes",
+    "d": "Ducks"
+  },
+  "107": {
+    "parent" : "101",
+    "name": "Order Galliformes",
+    "d": "Chicken"
+  },
+  "108": {
+    "parent" : "101",
+    "name": "Neoaves",
+    "time" : 69
+  },
+  "109": {
+    "parent" : "101",
+    "name": "Archaeopteryx",
+    "d": "Archaeopteryx"
+  },
+  "110": {
+    "parent" : "108",
+    "name": "Order Psittaciformes",
+    "d": "Parrot"
+  },
+  "111": {
+    "parent" : "108",
+    "name": "Order Sphenisciformes",
+    "d": "Penguins"
+  },
+  "112": {
+    "parent" : "108",
+    "name": "Order Stringifromes",
+    "d": "Owls"
+  },
+  "113": {
+    "parent" : "84",
+    "name": "MAMMAL CLASS",
+    "d2": "Mammal",
+    "time" : 200
+  },
+  "114": {
+    "parent" : "113",
+    "name": "Platypus",
+    "d": "Platypus"
+  },
+  "115": {
+    "parent" : "113",
+    "name": "Theria",
+    "time" : 160
+  },
+  "116": {
+    "parent" : "115",
+    "name": "Marsupial",
+    "time" : 65
+  },
+  "117": {
+    "parent" : "115",
+    "name": "Order Didelphimorphia",
+    "d": "Opossum"
+  },
+  "118": {
+    "parent" : "116",
+    "name": "Diprotodontidae",
+    "time" : 30
+  },
+  "119": {
+    "parent" : "118",
+    "name": "Family Phascolarctidae",
+    "d": "Koalas",
+    "d2": "Marsupial"
+  },
+  "120": {
+    "parent" : "118",
+    "name": "Family Macropodidae",
+    "d": "Kangaroos"
+  },
+  "121": {
+    "parent" : "118",
+    "name": "Family Diprotodontidae",
+    "d": "Large Marsupials",
+    "d2": "Diprotodontidae"
+  },
+  "122": {
+    "parent" : "118",
+    "name": "Family Thylacomyidae",
+    "d": "Marsupial Lions"
+  },
+  "123": {
+    "parent" : "115",
+    "name": "Placentals",
+    "d2": "Placentalia",
+    "time" : 66
+
+  },
+  "124": {
+    "parent" : "123",
+    "name": "Atlantogeneta",
+    "time" : 60
+  },
+  "125": {
+    "parent" : "124",
+    "name": "Xenarthra",
+    "time" : 59
+  },
+  "126": {
+    "parent" : "124",
+    "name": "Afrotheria",
+    "time" : 65
+  },
+  "127": {
+    "parent" : "125",
+    "name": "Order Cingulata",
+    "d": "Armadillos"
+  },
+  "128": {
+    "parent" : "125",
+    "name": "Order Pilosa",
+    "d": "Sloths",
+    "d2": "Anteaters"
+  },
+  "129": {
+    "parent" : "126",
+    "name": "Proboscidea",
+    "time" : 60
+  },
+  "130": {
+    "parent" : "129",
+    "name": "ELEPHANT FAMILY",
+    "time" : 4
+  },
+  "131": {
+    "parent" : "130",
+    "name": "Genus Mammuthus",
+    "d": "Mammoth"
+  },
+  "132": {
+    "parent" : "130",
+    "name": "Genus Elephas",
+    "d": "Asian Elephants"
+  },
+  "133": {
+    "parent" : "130",
+    "name": "Genus Lexondonta",
+    "d": "African Elephants"
+  },
+  "134": {
+    "parent" : "123",
+    "name": "Laurasiatheria",
+    "time" : 80
+  },
+  "135": {
+    "parent" : "134",
+    "name": "Order Chiroptera",
+    "d" : "Bats"
+  },
+  "136": {
+    "parent" : "134",
+    "name": "Order Eulipotyphla",
+    "d" : "Moles",
+    "d2" : "Shrews"
+  },
+  "137": {
+    "parent" : "134",
+    "name": "Order Carnivora",
+    "d2": "Carnivora",
+    "time" : 42
+  },
+  "138": {
+    "parent" : "137",
+    "name": "Family Procyonidae",
+    "d" : "Procyon (genus)"
+  },
+  "139": {
+    "parent" : "137",
+    "name": "Family Ursidae",
+    "d" : "Bears"
+  },
+  "140": {
+    "parent" : "137",
+    "name": "Candid Family",
+    "d2" : "Canidae",
+    "time" : 39
+
+  },
+  "141": {
+    "parent" : "137",
+    "name": "Family Hyaeinidae",
+    "d" : "Hyenas"
+  },
+  "142": {
+    "parent" : "137",
+    "name": "Felidae",
+    "time" : 25
+  },
+  "143": {
+    "parent" : "137",
+    "name": "Pinnipeds",
+    "time" : 24
+  },
+  "144": {
+    "parent" : "143",
+    "name": "Family Otariidae",
+    "d" : "Sea Lions"
+  },
+  "145": {
+    "parent" : "143",
+    "name": "Family Phocidae",
+    "d" : "Earless seal"
+  },
+  "146": {
+    "parent" : "142",
+    "name": "Genus Vulpes",
+    "d" : "Foxes"
+  },
+  "147": {
+    "parent" : "142",
+    "name": "Genus Canis",
+    "time" : 6,
+    "d2" : "Canis"
+  },
+
+  "148": {
+    "parent" : "147",
+    "name": "Canis Lupus",
+    "d" : "Wolves",
+    "d2" : "Jackal"
+  },
+  "149": {
+  "parent" : "147",
+  "name": "Canis Latrans",
+  "d" : "Coyotes"
+},
+  "150": {
+    "parent" : "148",
+    "name": "Canis Lupus Familiaris",
+    "d" : "Dog"
+  },
+  "151": {
+    "parent" : "142",
+    "name": "Genus Smilodon",
+    "d" : "Saber Toothed Tiger"
+  },
+  "152": {
+    "parent" : "142",
+    "name": "Genus Panthera",
+    "time" : 6
+  },
+  "153": {
+    "parent" : "142",
+    "name": "Genus Felis",
+    "time" : 6
+  },
+  "154": {
+    "parent" : "152",
+    "name": "Panthera Tigris",
+    "d" : "Tiger"
+  },
+  "155": {
+  "parent" : "152",
+  "name": "Panthera Lio",
+    "d" : "Lion"
+},
+  "156": {
+    "parent" : "153",
+    "name": "Felis Catus",
+    "d" : "Cat"
+  },
+  "157": {
+    "parent" : "134",
+    "name": "Ungulates",
+    "time" : 60
+  },
+  "158": {
+    "parent" : "157",
+    "name": "Order Perissodactyla",
+    "d2": "Odd-toed ungulate",
+    "time" : 56
+  },
+  "159": {
+    "parent" : "157",
+    "name": "Cetartiodactyla",
+    "d2": "Even-toed ungulate",
+    "time" : 55
+  },
+  "160": {
+    "parent" : "158",
+    "name": "Family Equidae",
+    "d" : "Horses"
+  },
+  "161": {
+    "parent" : "158",
+    "name": "Family Rhinocerotidae",
+    "d" : "Rhinoceros"
+  },
+  "162": {
+    "parent" : "159",
+    "name": "Cetacea",
+    "time" : 53
+  },
+  "163": {
+    "parent" : "162",
+    "name": "Family Ambulocetidae",
+    "d" : "Ancient Whales"
+  },
+  "164": {
+    "parent" : "162",
+    "name": "Modern Whales",
+    "d" : "Modern Whales",
+    "d2": "Whales"
+  },
+  "165": {
+    "parent" : "162",
+    "name": "Family Delphinidae",
+    "d" : "Oceanic Dolphins"
+  },
+  "166": {
+    "parent" : "159",
+    "name": "Family Giraffidae",
+    "d" : "Giraffe"
+  },
+  "167": {
+    "parent" : "159",
+    "name": "Bovidae",
+    "time" : 20
+  },
+  "168": {
+    "parent" : "159",
+    "name": "Family Cervidae"
+  },
+  "169": {
+    "parent" : "159",
+    "name": "Family Hippopotamidae",
+    "d" : "Hippopotamuses"
+  },
+  "170": {
+    "parent" : "167",
+    "name": "Genus Bison",
+    "d" : "American Buffalo"
+  },
+  "171": {
+    "parent" : "167",
+    "name": "Genus Bos",
+    "d" : "Cattle",
+    "d2" : "Cow"
+  },
+  "172": {
+    "parent" : "168",
+    "name": "Family Cervidae",
+    "d" : "Deer"
+  },
+  "173": {
+    "parent" : "123",
+    "name": "Boreoeutheria",
+    "time" : 65
+  },
+  "174": {
+    "parent" : "173",
+    "name": "Supra-Primates",
+    "d2" : "Euarchontoglires",
+    "time" : 65
+  },
+  "175": {
+    "parent" : "174",
+    "name": "Order Lagomorpha",
+    "d" : "Rabbits"
+  },
+  "176": {
+    "parent" : "174",
+    "name": "Family Sciuridae",
+    "d" : "Squirrels"
+  },
+  "177": {
+    "parent" : "174",
+    "name": "Family Muridae",
+    "d" : "Mice",
+    "d2" : "Rats"
+  },
+  "178": {
+    "parent" : "174",
+    "name": "Order Primates",
+    "d2":"Primate",
+    "time" : 55
+  },
+  "179": {
+    "parent" : "178",
+    "name": "Family Transiidae",
+    "d" : "Tarsier"
+  },
+  "180": {
+    "parent" : "178",
+    "name": "Simians",
+    "time" : 40
+  },
+  "181": {
+    "parent" : "180",
+    "name": "New WOrld Monkey",
+    "d" : "New WOrld Monkey"
+  },
+  "182": {
+    "parent" : "180",
+    "name": "Family Cercopithecidae",
+    "d" : "Old World Monkeys"
+  },
+  "183": {
+    "parent" : "180",
+    "name": "Apes",
+    "time" : 15
+  },
+  "184": {
+    "parent" : "183",
+    "name": "Family Hylobatidae",
+    "d" : "Gibbons"
+  },
+  "185": {
+    "parent" : "183",
+    "name": "Hominidae",
+    "d2" : "Great Apes",
+    "time" : 17
+  },
+  "186": {
+    "parent" : "185",
+    "name": "Genus Gorilla",
+    "d" : "Genus Gorilla"
+  },
+  "187": {
+    "parent" : "185",
+    "name": "Genus Pongo",
+    "d" : "Orangutans"
+  },
+  "188": {
+    "parent" : "185",
+    "name": "Last Common Chimp Human Ancestor",
+    "time" : 7,
+    "d2" : "Chimpanzee–human last common ancestor"
+  },
+  "189": {
+    "parent" : "188",
+    "name": "Genus Australopithecus",
+    "d" : "Genus Australopithecus",
+    "d2" : "Australopithecus",
+    "time" : 3
+  },
+  "190": {
+    "parent" : "188",
+    "name": "Pan Paniscus",
+    "d" : "Bonobos"
+  },
+  "191": {
+    "parent" : "188",
+    "name": "Pan Troglodytes",
+    "d" : "Chimpanzees"
+  },
+  "192": {
+    "parent" : "189",
+    "name": "Paranthropus",
+    "d" : "Paranthropus"
+  },
+  "193": {
+    "parent" : "189",
+    "name": "Genus Homo",
+    "time" : 3,
+    "d2" : "Homo"
+  },
+  "194": {
+    "parent" : "193",
+    "name": "Homo Habilis",
+    "d" : "Homo Habilis"
+  },
+  "195": {
+    "parent" : "193",
+    "name": "Homo Ergaster",
+    "time" : 2,
+    "d" : "African Homo Erectus"
+  },
+  "196": {
+    "parent" : "193",
+    "name": "Homo Floresiensis",
+    "d" : "Homo Floresiensis"
+  },
+  "197": {
+    "parent" : "195",
+    "name": "Asian Homo Erectus",
+    "d" : "Asian Homo Erectus"
+  },
+  "198": {
+    "parent" : "195",
+    "name": "Homo Heidelbergensis",
+    "d" : "Homo Heidelbergensis",
+    "time" : 1
+  },
+  "199": {
+    "parent" : "198",
+    "name": "Neanderthals",
+    "d" : "Neanderthals"
+  },
+  "200": {
+    "parent" : "198",
+    "name": "Denisovan",
+    "d" : "Denisovan"
+  },
+  "201": {
+    "parent" : "198",
+    "name": "Homo Sapiens",
+    "d" : "Homo Sapiens"
+  },
+
+  "Amphibians" : {
+
+    "d" : {
+      
+      "name" : "Caecilian",
+      "time" : 100
+      
+    },
+    "d2" :{
+
+      "name" : "Japanese Giant Salamander",
+      "time" : 10
+
+    },
+    "d3" : {
+
+      "name" : "Danube Crested Newt",
+      "time" : 25
+
+    },
+    "d4" : {
+
+      "name" : "Hellbender",
+      "time" : 1
+
+    },
+    "d5" : {
+
+      "name" : "Thorius Pennatulus",
+      "time" : 0.8
+
+    },
+    "d6" : {
+
+      "name" : "Salamandroidea",
+      "time" : 157
+
+    },
+    "d7" : {
+
+      "name" : "Atelopus Minutulus",
+      "time" : 0.5
+
+    },
+    "d8" : {
+
+      "name" : "Diplocaulus",
+      "time" : 300
+
+    },
+    "d9" : {
+
+      "name" : "Fire Salamander",
+      "time" : 1
+
+    },
+    "d10" : {
+
+      "name" : "Axolotl",
+      "time" : 1
+
+    }
+
+  },
+  "Fish" :{
+    "d" : {
+
+      "name" : "Dunkleosteus",
+      "time" : 320
+
+    },
+    "d2" : {
+
+      "name" : "Leedsichthys",
+      "time" : 130
+
+    },
+    "d3" : {
+
+      "name" : "Bowfin",
+      "time" : 1
+
+    },
+    "d4" : {
+
+      "name" : "Gar",
+      "time" : 100
+
+    },
+    "d5" : {
+
+      "name" : "Beluga (sturgeon)",
+      "time" : 1
+
+    },
+    "d6" : {
+
+      "name" : "Bichir",
+      "time" : 65.5
+
+    },
+    "d7" : {
+
+      "name" : "Paddlefish",
+      "time" : 110
+
+    },
+    "d8" : {
+
+      "name" : "Shortnose sturgeon",
+      "time" : 20
+
+    },
+    "d9" : {
+
+      "name" : "Reedfish",
+      "time" : 1
+
+    },
+    "d10" : {
+
+      "name" : "Hagfish",
+      "time" : 1
+
+    }
+  },
+  "Pre Mammals" :{
+    "d" : {
+
+      "name" : "Oedaleops",
+      "time" : 290
+
+    },
+    "d2" : {
+
+      "name" : "Eothyris",
+      "time" : 220
+
+    },
+    "d3" : {
+
+      "name" : "Cotylorhynchus",
+      "time" : 270
+
+    },
+    "d4" : {
+
+      "name" : "Haptodus",
+      "time" : 290
+
+    },
+    "d5" : {
+
+      "name" : "Angelosaurus",
+      "time" : 250
+
+    },
+    "d6" : {
+
+      "name" : "Pantelosaurus",
+      "time" : 252
+
+    },
+    "d7" : {
+
+      "name" : "Gorgonops",
+      "time" : 250
+
+    },
+    "d8" : {
+
+      "name" : "Moschorhinus",
+      "time" : 270
+
+    },
+    "d9" : {
+
+      "name" : "Moschops",
+      "time" : 262
+
+    },
+    "d10" : {
+
+      "name" : "Anteosaurus",
+      "time" : 263
+
+    }
+  },
+
+
+  "Birds" :{
+    "d" : {
+
+      "name" : "Ostrich",
+      "time" : 10
+
+    },
+    "d2" : {
+
+      "name" : "Rheidae",
+      "time" : 30
+
+    },
+    "d3" : {
+
+      "name" : "Emu",
+      "time" : 5
+
+    },
+    "d4" : {
+
+      "name" : "Cassowary",
+      "time" : 2
+
+    },
+    "d5" : {
+
+      "name" : "Elephant bird",
+      "time" : 2
+
+    },
+    "d6" : {
+
+      "name" : "Kiwi",
+      "time" : 1
+
+    },
+    "d7" : {
+
+      "name" : "Tinamou",
+      "time" : 8
+
+    },
+    "d8" : {
+
+      "name" : "Moa",
+      "time" : 15
+
+    },
+    "d9" : {
+
+      "name" : "Columbidae",
+      "time" : 3
+
+    },
+    "d10" : {
+
+      "name" : "Falconidae",
+      "time" : 20
+
+    },
+    "d11" : {
+
+      "name" : "Cuckoo",
+      "time" : 30
+
+    },
+    "d12" : {
+
+      "name" : "Hummingbird",
+      "time" : 20
+
+    }
+
+
+
+  }
+
+
+
+
+
+
+
+
+}

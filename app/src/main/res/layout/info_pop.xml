@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/pop_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:layout_width="284dp"
+        android:layout_weight="1.0"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/gradient_1"
+            ></LinearLayout>
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/halogen"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:background="@drawable/gradient_1"
+            android:text="SAMPLE"
+            />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:paddingLeft="@dimen/margin_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cav"
+            android:textSize="22sp"
+            android:text="How many years back ?"
+            />
+
+        <EditText
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/cav"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="@dimen/margin_10"
+            android:inputType="text"
+            android:textSize="25sp"
+            android:hint="In Millions.."
+            android:layout_height="wrap_content" />
+
+
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/margin_10"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/wiki"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:fontFamily="@font/cav"
+        android:background="@drawable/bg_gradient"
+        android:text="READ WIKI" />
+
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+
+            android:gravity="center"
+            android:clickable="true"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:fontFamily="@font/cav"
+            android:background="@drawable/bg_gradient_error"
+            android:text="One Back" />
+
+
+        <Button
+            android:id="@+id/jump"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:clickable="true"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:fontFamily="@font/cav"
+            android:background="@drawable/gradient_1"
+            android:text="Jump" />
+
+
+
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="9dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/gradient_1"
+            ></LinearLayout>
+
+
+
+
+
+</LinearLayout>
+
+</RelativeLayout>

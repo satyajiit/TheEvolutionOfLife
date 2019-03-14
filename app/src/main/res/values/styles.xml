@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="actionBarStyle">@style/Widget.AppTheme.ActionBar</item>
+    </style>
+
+    <style name="Widget.AppTheme.ActionBar" parent="Widget.AppCompat.ActionBar.Solid">
+        <!-- action bar background - without android prefix -->
+        <item name="background">@drawable/gradient_1</item>
+        <item name="height">60dp</item>
+        <!-- action bar elevation - without android prefix -->
+        <item name="elevation">6dp</item>
+    </style>
+
+    <style name="pro" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:fontFamily">@font/cav</item>
+    </style>
+
+    <style name="AppTheme.FullScreenDialog" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:fontFamily">@font/cav</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="actionMenuTextColor">#FFF176</item>
+    </style>
+
+
+    <style name="AppTheme.Slide">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

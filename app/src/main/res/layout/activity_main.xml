@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:id="@+id/main"
+    tools:context=".activity.MainActivity"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/graphCard"
+        android:onClick="startGraph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp"
+        android:layout_margin="10dp"
+        card_view:cardElevation="5dp"
+        android:focusable="true"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:src="@drawable/graph"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/halogen"
+                android:text="Graph View"
+                />
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/explore"
+        android:onClick="startExplore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardElevation="5dp"
+        android:layout_margin="10dp"
+        android:focusable="true"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_gravity="center"
+                android:src="@drawable/explore"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/halogen"
+                android:text="Explore"
+                />
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/all"
+            android:onClick="startViewAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="10dp"
+            card_view:cardElevation="5dp"
+            android:focusable="true"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/view_all"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/halogen"
+                    android:text="View All"
+                    />
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/about"
+            android:onClick="aboutDev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardElevation="5dp"
+            android:layout_margin="10dp"
+            android:focusable="true"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_gravity="center"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/person"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/halogen"
+                    android:text="About"
+                    />
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+        <TextView
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cav"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:text="Made with ❤ by SatyaJit"
+            />
+
+
+</RelativeLayout>

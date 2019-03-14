@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pop_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="284dp"
+        android:layout_weight="1.0"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/gradient_1"
+            ></LinearLayout>
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/halogen"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:background="@drawable/gradient_1"
+            android:text="NO CONNECTION"
+            />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:paddingLeft="@dimen/margin_10"
+            android:paddingStart="@dimen/margin_10"
+            android:paddingEnd="@dimen/margin_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cav"
+            android:textSize="19sp"
+            android:text="Please Connect to the Internet...We need to fetch images from the Online Storage!!"
+            />
+
+
+
+
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/margin_10"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/ok"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:clickable="true"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:fontFamily="@font/cav"
+                android:background="@drawable/gradient_1"
+                android:text="CLOSE" />
+
+         </LinearLayout>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

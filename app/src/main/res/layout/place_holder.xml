@@ -1,0 +1,7 @@
+<View android:layout_width="match_parent"
+    android:layout_height="10dp"
+    android:layout_gravity="left"
+    android:layout_marginTop="8dp"
+    android:padding="10dp"
+    android:background="@color/background"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

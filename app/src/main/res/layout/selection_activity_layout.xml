@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    tools:context=".activity.SelectionActivity">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/empty"
+            android:visibility="gone"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/sad"
+            />
+
+        <TextView
+            android:id="@+id/emt_txt"
+            android:layout_below="@id/empty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:visibility="gone"
+            android:clickable="true"
+            android:background="@drawable/selector_btn"
+            android:paddingTop="20dp"
+            android:fontFamily="@font/halogen"
+            android:text="Sorry no match for that year.\nTouch here to Try again"
+            />
+
+
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:fontFamily="@font/cav"
+            android:text="Years ago...timeline upto the start of life."
+            android:background="@drawable/chip"
+            />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/items"
+        android:layout_below="@id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:scrollbars="vertical"/>
+
+</RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
