@@ -29,3 +29,12 @@
 <img src="/Screen/10.png" height="583" width="350" />&nbsp;
 <img src="/Screen/11.png" height="583" width="350" />&nbsp;
 <img src="/Screen/12.png" height="583" width="350" />&nbsp;
+
+
+# Features 
+* Tree View
+* Preview Images
+* Detailed Description
+* Uses Wiki Open API
+* Good UI
+* Jump from one time to another!
