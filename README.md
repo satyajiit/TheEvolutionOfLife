@@ -1,5 +1,5 @@
 # TheEvolutionOfLife
-[![playstore](https://github.com/satyajiit/Webi/blob/master/Screen/playstore.png)](https://play.google.com/store/apps/details?id=com.satyajit.webi)
+[![playstore](https://github.com/satyajiit/Webi/blob/master/Screen/playstore.png)](https://play.google.com/store/apps/details?id=com.satyajit.evolutionoflife&hl=en)
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-YES-blueviolet.svg)](#)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
