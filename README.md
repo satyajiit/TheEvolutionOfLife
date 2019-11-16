@@ -19,6 +19,8 @@
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-oxygen.svg)](#)
 [![forthebadge](https://forthebadge.com/images/badges/ages-12.svg)](#)
 
+## TravisCI
+[![Build Status](https://travis-ci.com/satyajiit/TheEvolutionOfLife.svg?branch=master)](https://travis-ci.com/satyajiit/TheEvolutionOfLife)
 
 <img src="/Screen/1.png" height="583" width="350" />&nbsp;
 <img src="/Screen/2.png" height="583" width="350" />&nbsp;
