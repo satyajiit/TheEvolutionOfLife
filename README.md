@@ -1,4 +1,5 @@
 # TheEvolutionOfLife
+* The Timeline of Evolution of Living Beings
 [![playstore](https://github.com/satyajiit/Webi/blob/master/Screen/playstore.png)](https://play.google.com/store/apps/details?id=com.satyajit.evolutionoflife&hl=en)
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-YES-blueviolet.svg)](#)
@@ -16,7 +17,6 @@
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-oxygen.svg)](#)
 [![forthebadge](https://forthebadge.com/images/badges/ages-12.svg)](#)
 
-* The Timeline of Evolution of Living Beings
 
 <img src="/Screen/1.png" height="583" width="350" />&nbsp;
 <img src="/Screen/2.png" height="583" width="350" />&nbsp;
